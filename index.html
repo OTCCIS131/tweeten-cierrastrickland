@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Name: Cierra Strickland
+            Date: 09/24/2017
+            Page: Index
+            Assignment: Tweeten -->
+
+            <!--Bootstrap-->
+            <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+            <!-- Optional theme -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+            <style>
+            </style>
+        </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top" style="margin-bottom:25px;">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <p>Tweeten</p>
+                    </a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#"><span class="sr-only">(current)</span><span class="glyphicons glyphicons-home">Home</span></a></li>
+                    <li><a href="#"><span class="glyphicons glyphicons-bell"></span>Notifications</a></li>
+                    <li><a href="#"><span class="glyphicons glyphicons-envelope">Messages</span></a></li>
+                </ul>
+                <ul class="nav navbar-nav pull-right">
+                    <li form class="navbar-form" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></button>
+                        <img class="img-circle" src="images/me.jpg" alt="cierra strickland" style="max-width:35px;margin-top:8px;margin-left:8px;margin-right:4px;">
+                        <button type="button" class="btn btn-primary navbar-btn navbar-right">Tweet</button></li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </nav>
+        <div class="container" style="margin-top:85px;">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-circle" src="images/me.jpg" alt="cierra strickland" style="max-width:250px;height:220px;">
+                    <h2>Cierra Strickland</h2>
+                    <p>@cierrastrickland</p>
+                    <h3>"What you create for you, no one can take from you."</h3>
+                    <span class="glyphicon glyphicon-map-marker"></span>Springfield, MO<br>
+                    <span class="glyphicon glyphicon-calendar"></span>Joined September 2017<br>
+                    <span class="glyphicon glyphicon-picture"></span>87 Photos and Videos<br>
+                </div>
+                <div class="col-md-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" style="text-align: center">Compose new Tweet</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <textarea class="form-control" rows="5" id="newTweet"></textarea>
+                                <div style="margin-top:15px;">
+                                    <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-picture"></span></button>
+                                    <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-map-marker"></span></button>
+                                    <button type="button" class="btn btn-primary pull-right">Tweet</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" style="background-color:lightgray">
+                            Tweets &#8226; Tweets & Replies &#8226; Media
+                        </div>
+                        <div class="panel-body">
+                            <img class="img-circle pull-left" src="images/me.jpg" alt="cierra strickland" style="max-width:100px;height:80px;margin-right:10px;">
+                            <h4 style="float:left; line-height:5px;">Cierra Strickland</h4> <p style="color:lightgray; float:left; margin-left:4px;">@cierrastrickland &#8226; Sept 27</p>
+                            <p style="float:left;">WOw college is a true struggle, love it :-))))!!!!!</p><br>
+                            <div class="pull-left" style="margin-top: 15px;">
+                                <br><span class="glyphicon glyphicon-comment">32 </span><span class="glyphicon glyphicon-retweet">1.1k </span><span class="glyphicon glyphicon-heart">50 </span><span class="glyphicon glyphicon-envelope">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Your Tweet Activity
+                        </div>
+                         <div class = "panel-body">
+                             Don't flatter yourself, You've only tweeted once
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                            <div class="panel-heading">
+                                Who to follow
+                            </div>
+                            <ul class="list-group">
+                                <li class="list-group-item" style="height:100px;">
+                                    <img class="img-circle pull-left" src="images/bey.jpg" alt="beyonce" style="max-width:100px;height:80px;margin-right:10px;">
+                                    <p class=>@beyonce</p><br>
+                                    <button type="button" class="btn btn-info pull-left" style="margin-top: -10px;">Follow</button>
+                                </li>
+                                <li class="list-group-item" style="height:100px;">
+                                    <img class="img-circle pull-left" src="images/caitlin.jpg" alt="caitlin curbow" style="max-width:100px;height:80px;margin-right:10px;">
+                                    <p>@caitlincurbow</p><br>
+                                    <button type="button" class="btn btn-info pull-left" style="margin-top: -10px;">Follow</button>
+                                </li>
+                                <li class="list-group-item" style="height:100px;">
+                                    <img class="img-circle pull-left" src="images/chrissy.jpg" alt="chrissy teigen" style="max-width:100px;height:80px;margin-right:10px;">
+                                    <p>@chrissyteigen</p><br>
+                                    <button type="button" class="btn btn-info pull-left" style="margin-top: -10px;">Follow</button>
+                                </li>
+                            </ul>
+                    </div>
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
