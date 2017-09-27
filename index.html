@@ -12,7 +12,9 @@
             <!-- Optional theme -->
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
             <style>
-            </style>
+</style>
+            <link rel="stylesheet" href="style.css">
+            
         </head>
     <body>
         <nav class="navbar navbar-default navbar-fixed-top" style="margin-bottom:25px;">
@@ -76,7 +78,12 @@
                             <h4 style="float:left; line-height:5px;">Cierra Strickland</h4> <p style="color:lightgray; float:left; margin-left:4px;">@cierrastrickland &#8226; Sept 27</p>
                             <p style="float:left;">WOw college is a true struggle, love it :-))))!!!!!</p><br>
                             <div class="pull-left" style="margin-top: 15px;">
-                                <br><span class="glyphicon glyphicon-comment">32 </span><span class="glyphicon glyphicon-retweet">1.1k </span><span class="glyphicon glyphicon-heart">50 </span><span class="glyphicon glyphicon-envelope">
+                                <br><span class="glyphicon glyphicon-comment">32 </span>
+                                <span class="glyphicon glyphicon-retweet">1.1k</span> 
+
+                                <div class="likebutton"> <button type="button"><span class="glyphicon glyphicon-heart"></button> <span id="clickcount">50</span> </span></div>
+                                 
+                                <span class="glyphicon glyphicon-envelope">
                             </div>
                         </div>
                     </div>
@@ -112,5 +119,6 @@
                                 </li>
                             </ul>
                     </div>
+                        <script src="like.js"></script>
     </body>
 </html>
