@@ -1,9 +1,12 @@
- var add = (function () {
-  var counter = 50;
-    return function () {return counter += 1;}
-           })();
-                                
-     function myFunction(){
-      document.getElementById("likes").innerHTML = add();
- }
+ function onClick(){
+     let clicks = document.getElementById('likes').nextSibling
+    let likes = parseInt(clicks.textContent) + 1
+    clicks.textContent = likes
+
+ };
+
+ let buttons = document.getElementById('likebutton')
+ buttons.addEventListener('click', onClick)
+
+
               
