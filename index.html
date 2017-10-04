@@ -12,7 +12,10 @@
             <!-- Optional theme -->
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
             <style>
-            </style>
+</style>
+
+
+
         </head>
     <body>
         <nav class="navbar navbar-default navbar-fixed-top" style="margin-bottom:25px;">
@@ -75,8 +78,21 @@
                             <img class="img-circle pull-left" src="images/me.jpg" alt="cierra strickland" style="max-width:100px;height:80px;margin-right:10px;">
                             <h4 style="float:left; line-height:5px;">Cierra Strickland</h4> <p style="color:lightgray; float:left; margin-left:4px;">@cierrastrickland &#8226; Sept 27</p>
                             <p style="float:left;">WOw college is a true struggle, love it :-))))!!!!!</p><br>
-                            <div class="pull-left" style="margin-top: 15px;">
-                                <br><span class="glyphicon glyphicon-comment">32 </span><span class="glyphicon glyphicon-retweet">1.1k </span><span class="glyphicon glyphicon-heart">50 </span><span class="glyphicon glyphicon-envelope">
+                            <div class="pull-left" style="margin-top: 15px;">  
+
+                                
+                                <button type="btn btn-primary" class="likebutton" type="submit" style=" background-color:white; border:none;" >
+                                        <i class="glyphicon glyphicon-comment"></i><div id="likes" style="display:inline">32</div></button>
+                              
+                                <button type="btn btn-primary" class="likebutton" type="submit" style=" background-color:white; border:none;" >
+                                    <i class="glyphicon glyphicon-retweet"></i><div id="likes" style="display:inline">60</div></button>
+
+                                <button type="btn btn-primary" class="likebutton" type="submit" style="display:inline; background-color:white; border:none;" >
+                                    <i class="glyphicon glyphicon-heart"></i><div id="likes" style="display:inline">50</div></button>                              
+                                
+                                <button type="btn btn-primary" class="likebutton" type="submit" style="display:inline; background-color:white; border:none;" >
+                                            <i class="glyphicon glyphicon-envelope"></i><div id="likes" style="display:inline">3</div></button>                              
+                                
                             </div>
                         </div>
                     </div>
@@ -111,6 +127,7 @@
                                     <button type="button" class="btn btn-info pull-left" style="margin-top: -10px;">Follow</button>
                                 </li>
                             </ul>
-                    </div>
+                    </div>      
+                        <script src="likes.js"></script>             
     </body>
 </html>
