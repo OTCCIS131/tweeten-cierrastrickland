@@ -8,14 +8,8 @@ buttons.forEach(button => {
 
 })
 
-// $(function() {
+$(function() {
 
-//     $('.likes').click(event =>{
-//         let currentNum = $(event.target).text()
-//         let likes = parseInt(currentNum) + 1;
 
-        
 
-//     })
-
-// })
+})
