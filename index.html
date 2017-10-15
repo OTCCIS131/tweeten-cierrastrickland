@@ -54,7 +54,9 @@
                     <span class="glyphicon glyphicon-calendar"></span>Joined September 2017<br>
                     <span class="glyphicon glyphicon-picture"></span>87 Photos and Videos<br>
                 </div>
-                <form id=tweetForm <input type = "sumbit">
+
+                <form id=newTweetForm>
+                    <input type="hidden">
                 <div class="col-md-6">
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -62,7 +64,7 @@
                         </div>
                         <div class="panel-body">
                             <div class="form-group">
-                                <textarea class="form-control" rows="5" id="newTweet"></textarea>
+                                <textarea class="form-control" rows="5" id="newTweet" name="words"></textarea>
                                 <div style="margin-top:15px;">
                                     <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-picture"></span></button>
                                     <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-map-marker"></span></button>
@@ -72,13 +74,14 @@
                         </div>
                     </div>
                 </form>
-                        <div class="panel panel-default">
+
+                        <div class="panel panel-default" id="tweeting">
                             <div class="panel-heading" style="background-color:lightgray">
                                 Tweets &#8226; Tweets & Replies &#8226; Media
                             </div>
                             <div class="panel-body">
-                                <img class="img-circle pull-left" src="images/me.jpg" alt="cierra strickland" style="max-width:100px;height:80px;margin-right:10px;">
-                                <h4 style="float:left; line-height:5px;">Cierra Strickland</h4> <p style="color:lightgray; float:left; margin-left:4px;">@cierrastrickland &#8226; Sept 27</p>
+                                <img class="img-circle pull-left circleClone" src="images/me.jpg" alt="cierra strickland" style="max-width:100px;height:80px;margin-right:10px;">
+                                <h4 class="name" style="float:left; line-height:5px;">Cierra Strickland</h4> <p class="atName" style="color:lightgray; float:left; margin-left:4px;">@cierrastrickland &#8226; Sept 27</p>
                                 <p style="float:left;">WOw college is a true struggle, love it :-))))!!!!!</p><br>
                                 <div class="pull-left" style="margin-top: 15px;">  
 
@@ -100,6 +103,7 @@
                             </div>
                         </div>
                     </form>
+            </div>
                 <div class="col-md-3">
                     <div class="panel panel-default">
                         <div class="panel-heading">
